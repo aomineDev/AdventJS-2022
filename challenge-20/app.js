@@ -33,7 +33,7 @@ function howManyReindeers(reindeerTypes, gifts) {
     return { country, reindeers }
   })
 
-  //--------------------------------------------------------------------------------------------
+  //-------------------------------------------------------------------------------
 
   // 10 pts - using recursivity
   // function findCombination (arr, target) {
@@ -67,7 +67,7 @@ function howManyReindeers(reindeerTypes, gifts) {
   //     return { country, reindeers }
   // })
 
-  //--------------------------------------------------------------------------------------------
+  //-------------------------------------------------------------------------------
 
   // Error: Script execution timed out after 1000ms - Usinng backtracking algorithm
   // function combinationSum (arr, target) {
