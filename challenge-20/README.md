@@ -1,7 +1,7 @@
 # Reto #20: Más viajes retadores
 
 <div align="center">
-  <img src="https://adventjs.dev/challenges-2022/20.svg" alt="git logo" width="300px">
+  <img src="https://adventjs.dev/challenges-2022/20.svg" alt="AdventJS reto 20 image" width="300px">
   <h5 style="font-weight:bold;" >Dificil</h5>
 </div>
 
