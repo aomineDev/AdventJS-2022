@@ -13,7 +13,6 @@ const gifts = [
 
 howManyReindeers(reindeerTypes, gifts)
 
-
 function howManyReindeers(reindeerTypes, gifts) {
   reindeerTypes.sort((a, b) => b.weightCapacity - a.weightCapacity)
 
@@ -21,15 +20,15 @@ function howManyReindeers(reindeerTypes, gifts) {
     let num = 0
 
     const reindeers = reindeerTypes
-    .map(({ type, weightCapacity: wc }) => ({ type, wc }))
-    .filter(({ wc }) => wc < weight)
-    .map(({ type }, i, arr) => {
-      const sum = arr.slice(i).reduce((a, { wc }) => a + wc, 0)
-      num += Math.floor(weight / sum)
-      weight %= sum
+      .map(({ type, weightCapacity: wc }) => ({ type, wc }))
+      .filter(({ wc }) => wc < weight)
+      .map(({ type }, i, arr) => {
+        const sum = arr.slice(i).reduce((a, { wc }) => a + wc, 0)
+        num += Math.floor(weight / sum)
+        weight %= sum
 
-      return { type, num }
-    })
+        return { type, num }
+      })
   
     return { country, reindeers }
   })
