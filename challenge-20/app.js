@@ -15,11 +15,24 @@ howManyReindeers(reindeerTypes, gifts)
 
 
 function howManyReindeers(reindeerTypes, gifts) {
-  //Les doy un pro tip
-  // Sumen todos los que pueden usar
-  // y hagan
-  // los regalos a entregar / la suma de los que pueden usar
-  // y vean que les da, es todo lo que dire
+  reindeerTypes.sort((a, b) => b.weightCapacity - a.weightCapacity)
+
+  return gifts.map(({ country, weight }) => {
+    let num = 0
+
+    const reindeers = reindeerTypes
+    .map(({ type, weightCapacity: wc }) => ({ type, wc }))
+    .filter(({ wc }) => wc < weight)
+    .map(({ type }, i, arr) => {
+      const sum = arr.slice(i).reduce((a, { wc }) => a + wc, 0)
+      num += Math.floor(weight / sum)
+      weight %= sum
+
+      return { type, num }
+    })
+  
+    return { country, reindeers }
+  })
 
   //--------------------------------------------------------------------------------------------
 
