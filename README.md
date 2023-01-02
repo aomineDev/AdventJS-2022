@@ -2,13 +2,13 @@
 
 ![AdventJS 2022 bg](https://i.imgur.com/HJG88nU.png)
 
-## Sube de nivel en programación
+### Sube de nivel en programación
 ¡Nuevo reto de programación cada día!
 
-## Guarda tu progreso
+### Guarda tu progreso
 Inicia sesión con Github
 
-## Con tu lenguaje favorito
+### Con tu lenguaje favorito
 JavaScript o TypeScript, tu decisión
 
 ## Preguntas frecuentes
