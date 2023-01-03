@@ -1,7 +1,7 @@
-# Reto #20: Más viajes retadores
+# Reto #1: ¡Automatizando envolver regalos de navidad!
 
 <div align="center">
-  <img src="https://adventjs.dev/challenges-2022/1.svg" alt="AdventJS reto 20 image" width="300px">
+  <img src="https://adventjs.dev/challenges-2022/1.svg" alt="AdventJS reto 1 image" width="300px">
   <h5 style="font-weight:bold;" >Facil</h5>
 </div>
 
@@ -26,8 +26,8 @@ console.log(wrapped)
 
 Como ves, el papel de regalo envuelve el string. Por arriba y por abajo, para no dejar ningún hueco, las esquinas también están cubiertas por el papel de regalo.
 
-Nota: El carácter \n representa un salto de línea.
+**Nota:** El carácter \n representa un salto de línea.
 
-¡Ojo! Asegúrate que pones el número correcto de * para envolver completamente el string. Pero no demasiados. Sólo los necesarios para cubrir el string.
+**¡Ojo!** Asegúrate que pones el número correcto de * para envolver completamente el string. Pero no demasiados. Sólo los necesarios para cubrir el string.
 
-Ah, y no modifiques (mutes) el array original.
+Ah, **y no modifiques (mutes) el array original**.
