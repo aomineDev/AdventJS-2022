@@ -10,14 +10,14 @@ Estamos probando una nueva CPU para el trineo de Papá Noel. Pero todavía tenem
 
 La CPU tiene 8 registros disponibles, que se llaman V00..V07. Al comienzo del programa, todos los registros contienen 0. La CPU admite las siguientes instrucciones:
 
-- MOV Vxx,Vyy: copia el valor del registro Vxx al registro Vyy;
-- MOV n,Vxx: asigna la constante numérica n al registro Vxx (sobrescribe si ya tiene un valor);
-- ADD Vxx,Vyy: calcula (Vxx + Vyy) y almacena el resultado en Vxx;
-- DEC Vxx: decrementa el valor de Vxx en 1.
-- INC Vxx: incrementa el valor de Vxx en 1.
-- JMP i: salta a la instrucción número i si V00 es diferente de 0. i está garantizado que sea un número de instrucción válido y 0 sería la primera instrucción.
+- `MOV Vxx,Vyy`: copia el valor del registro `Vxx` al registro `Vyy`;
+- `MOV n,Vxx`: asigna la constante numérica `n` al registro `Vxx` (sobrescribe si ya tiene un valor);
+- `ADD Vxx,Vyy`: calcula (`Vxx` + `Vyy`) y almacena el resultado en `Vxx`;
+- `DEC Vxx`: decrementa el valor de `Vxx` en 1.
+- `INC Vxx`: incrementa el valor de `Vxx` en 1.
+- `JMP i`: salta a la instrucción número `i` si `V00` es diferente de `0`. `i` está garantizado que sea un número de instrucción válido y `0` sería la primera instrucción.
 
-**Como la CPU es de 8 bits**, el número que podría representar va desde 0 hasta 255. Si incrementas el número 255 causa un desbordamiento y resulta en 0. Y si decrementas 0, resulta en 255. Ten en cuenta, entonces, que el número 280 sería 24 en la CPU.
+**Como la CPU es de 8 bits**, el número que podría representar va desde `0` hasta `255`. Si incrementas el número `255` causa un desbordamiento y resulta en `0`. Y si decrementas `0`, resulta en `255`. Ten en cuenta, entonces, que el número `280` sería `24` en la CPU.
 
 Después de que se haya ejecutado la última instrucción, debes devolver una matriz con el resultado para cada registro. **De V00 a V07.** Ejemplos:
 
