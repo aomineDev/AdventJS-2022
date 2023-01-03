@@ -2,11 +2,10 @@
 
 <div align="center">
   <img src="https://adventjs.dev/challenges-2022/20.svg" alt="AdventJS reto 20 image" width="300px">
-  <h5 style="font-weight:bold;" >Dificil</h5>
+  <h5 style="font-weight:bold;">Dificil</h5>
 </div>
 
 ## Instrucciones
-
 Papá Noel se ha dado cuenta de que ni con la colaboración de todos los elfos va a poder entregar todos los regalos a tiempo. Por eso va a pedir ayuda a sus amigos de Autentia.
 
 Desde Autentia nos han indicado que necesitan un programa para saber qué equipo de renos enviar a cada país. Hay **diferentes tipos de renos** y cada uno de ellos puede llevar un peso de regalos. Por ejemplo:
