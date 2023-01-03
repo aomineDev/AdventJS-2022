@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="https://adventjs.dev/challenges-2022/23.svg" alt="AdventJS reto 23 image" width="300px">
-  <h5 style="font-weight:bold;" >Dificil</h5>
+  <h5 style="font-weight:bold;">Dificil</h5>
 </div>
 
 ## Instrucciones
@@ -42,8 +42,8 @@ executeCommands([
 
 executeCommands([
   'MOV 10,V00', // V00 es 10
-  'DEC V00',    // decrementa V00 en 1  <---┐
-  'INC V01',    // incrementa V01 en 1      |
+  'DEC V00',    // decrementa V00 en 1 <---------┐
+  'INC V01',    // incrementa V01 en 1           |
   'JMP 1',      // bucle hasta que V00 sea 0 ----┘
   'INC V06'     // incrementa V06 en 1
 ])
