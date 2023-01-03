@@ -24,6 +24,7 @@ const holidays = ['01/06', '04/01', '12/25'] // formato MM/DD
 
 countHours(year, holidays) // 2 días -> 4 horas extra en el año
 ```
+
 Cosas a tener en cuenta y consejos:
 
 - El año puede ser bisiesto. Haz las comprobaciones que necesitas para ello, si fuese necesario.
