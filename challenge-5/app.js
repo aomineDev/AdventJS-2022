@@ -21,7 +21,7 @@ function getMaxGifts(giftsCities, maxGifts, maxCities) {
     .filter(e => e <= maxGifts)
   )
 
-//-------------------------------------------------------------------------------
+  //-------------------------------------------------------------------------------
 
   // Algoritmo - Fuerza Bruta
   // return Math.max(...new Array(2 ** giftsCities.length)
