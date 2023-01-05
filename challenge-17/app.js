@@ -22,4 +22,10 @@ function carryGifts(gifts, maxWeight) {
     }, [{ w: 0, g: [] }])
     .filter(e => e.w)
     .map(e => e.g.join(' '))
+
+  //-------------------------------------------------------------------------------
+  
+  // 260pts - Regex solution
+  // const regex = new RegExp(`\\b(\\w ?){1,${maxWeight}}(?= |$)`, 'g')
+  // return gifts.join(' ').match(regex) || []
 }
